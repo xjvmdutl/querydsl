@@ -12,7 +12,7 @@ spring:
       hibernate:
         # show_sql: true
         format_sql: true
-        use_sql_comments: true #jpql을 보고 싶을때
+        #use_sql_comments: true #jpql을 보고 싶을때
 
 logging.level:
   org.hibernate.SQL: debug
