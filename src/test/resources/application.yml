@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local #로컬 서버에 돌린다고 이름을 지정했다
+    active: test #테스트 서버에 돌린다고 이름을 지정했다
   datasource:
     url: jdbc:h2:tcp://localhost/~/querydsl
     username: sa
